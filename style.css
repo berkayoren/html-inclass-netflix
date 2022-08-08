@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Lobster&family=Mouse+Memoirs&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Mouse+Memoirs&family=Sorts+Mill+Goudy:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./img/background_image.jpg) ;
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    /* height: 100vh; */
+}
+#container{
+    max-width: 1240px;
+    /* height: 1036px; */
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: auto;
+    margin-top: 30px;
+    /* margin-left: 100px; */
+}
+#title{
+    text-align: center;
+    font-size: 3.1rem;
+    color: white;   
+    font-family: 'Bowlby One SC', cursive;  
+}
+span{
+    color: red;
+}
+#description{
+    /* font-family: 'Lobster', cursive; */
+    font-family: 'Sorts Mill Goudy', serif;
+}
+#survey-form-container{
+    width: 500px;
+    /* height: 897px; */
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: auto;
+    padding: 30px 40px;
+}
+textarea{
+    resize: none;
+}
+
+#name, 
+#age, 
+#email, 
+#content, 
+#type, 
+#feedback {
+    width: 100% ;
+    padding: 12px 10px ;
+    margin-top: 10px;
+}
+.inputbox {
+    margin-top: 10px;
+    accent-color: purple;
+}
+#form-button{
+    width: 160px;
+    height: 45px;
+    background-color: red;
+    color: white ;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.form-submit {
+    margin: auto ;
+    width: 160px;
+    margin-top: 15px;
+}
+
